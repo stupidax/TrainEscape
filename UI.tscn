@@ -1,0 +1,1092 @@
+[gd_scene load_steps=153 format=2]
+
+[ext_resource path="res://novem___.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://ressources.png" type="Texture" id=2]
+[ext_resource path="res://buttons/A_button_1.png" type="Texture" id=3]
+[ext_resource path="res://buttons/command_big.png" type="Texture" id=4]
+[ext_resource path="res://buttons/C_button_2.png" type="Texture" id=5]
+[ext_resource path="res://buttons/joystick.png" type="Texture" id=6]
+[ext_resource path="res://buttons/but_move.png" type="Texture" id=7]
+[ext_resource path="res://buttons/M_button_2.png" type="Texture" id=8]
+[ext_resource path="res://buttons/bar_0.png" type="Texture" id=9]
+[ext_resource path="res://buttons/bar_1.png" type="Texture" id=10]
+[ext_resource path="res://buttons/bar_2.png" type="Texture" id=11]
+[ext_resource path="res://buttons/M_button_0.png" type="Texture" id=12]
+[ext_resource path="res://buttons/M_button_1.png" type="Texture" id=13]
+[ext_resource path="res://buttons/C_button_1.png" type="Texture" id=14]
+[ext_resource path="res://buttons/A_button_2.png" type="Texture" id=15]
+[ext_resource path="res://buttons/I_button_0.png" type="Texture" id=16]
+[ext_resource path="res://buttons/G_button_2.png" type="Texture" id=17]
+[ext_resource path="res://buttons/B_button_2.png" type="Texture" id=18]
+[ext_resource path="res://buttons/B_button_0.png" type="Texture" id=19]
+[ext_resource path="res://buttons/G_button_0.png" type="Texture" id=20]
+[ext_resource path="res://buttons/G_button_1.png" type="Texture" id=21]
+[ext_resource path="res://buttons/D_button_1.png" type="Texture" id=22]
+[ext_resource path="res://buttons/D_button_2.png" type="Texture" id=23]
+[ext_resource path="res://buttons/command_small.png" type="Texture" id=24]
+[ext_resource path="res://price.png" type="Texture" id=25]
+[ext_resource path="res://buttons/I_button_1.png" type="Texture" id=26]
+[ext_resource path="res://buttons/I_button_2.png" type="Texture" id=27]
+[ext_resource path="res://buttons/but_move_1.png" type="Texture" id=28]
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 2 )
+region = Rect2( 112, 96, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=33]
+animations = [ {
+"frames": [ SubResource( 32 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=127]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=128]
+atlas = ExtResource( 2 )
+region = Rect2( 16, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=129]
+atlas = ExtResource( 2 )
+region = Rect2( 32, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=130]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=131]
+atlas = ExtResource( 2 )
+region = Rect2( 64, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=132]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=133]
+atlas = ExtResource( 2 )
+region = Rect2( 96, 144, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=48]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=49]
+atlas = ExtResource( 2 )
+region = Rect2( 16, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=50]
+atlas = ExtResource( 2 )
+region = Rect2( 32, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=51]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=52]
+atlas = ExtResource( 2 )
+region = Rect2( 64, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=53]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=54]
+atlas = ExtResource( 2 )
+region = Rect2( 96, 128, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 2 )
+region = Rect2( 16, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 2 )
+region = Rect2( 32, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 2 )
+region = Rect2( 64, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 2 )
+region = Rect2( 96, 112, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=42]
+atlas = ExtResource( 2 )
+region = Rect2( 16, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=43]
+atlas = ExtResource( 2 )
+region = Rect2( 32, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=44]
+atlas = ExtResource( 2 )
+region = Rect2( 48, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=45]
+atlas = ExtResource( 2 )
+region = Rect2( 64, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=46]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 96, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=47]
+atlas = ExtResource( 2 )
+region = Rect2( 96, 96, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=55]
+animations = [ {
+"frames": [ SubResource( 127 ), SubResource( 128 ), SubResource( 129 ), SubResource( 130 ), SubResource( 131 ), SubResource( 132 ), SubResource( 133 ) ],
+"loop": false,
+"name": "down",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ), SubResource( 54 ) ],
+"loop": true,
+"name": "low",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ) ],
+"loop": true,
+"name": "medium",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ) ],
+"loop": true,
+"name": "strong",
+"speed": 10.0
+} ]
+
+[sub_resource type="DynamicFont" id=21]
+size = 8
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="AtlasTexture" id=59]
+atlas = ExtResource( 24 )
+region = Rect2( 0, 0, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=60]
+atlas = ExtResource( 24 )
+region = Rect2( 17, 0, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=61]
+atlas = ExtResource( 24 )
+region = Rect2( 34, 0, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=56]
+atlas = ExtResource( 24 )
+region = Rect2( 0, 36, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=57]
+atlas = ExtResource( 24 )
+region = Rect2( 17, 36, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=58]
+atlas = ExtResource( 24 )
+region = Rect2( 34, 36, 17, 18 )
+
+[sub_resource type="SpriteFrames" id=62]
+animations = [ {
+"frames": [ SubResource( 59 ), SubResource( 60 ), SubResource( 61 ) ],
+"loop": false,
+"name": "aim",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 56 ), SubResource( 57 ), SubResource( 58 ) ],
+"loop": false,
+"name": "move",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 6 )
+region = Rect2( 27, 0, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 6 )
+region = Rect2( 54, 0, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 6 )
+region = Rect2( 81, 0, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 6 )
+region = Rect2( 108, 0, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 30, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 6 )
+region = Rect2( 27, 30, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 6 )
+region = Rect2( 54, 30, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 6 )
+region = Rect2( 81, 30, 27, 30 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 6 )
+region = Rect2( 108, 30, 27, 30 )
+
+[sub_resource type="SpriteFrames" id=20]
+animations = [ {
+"frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ) ],
+"loop": false,
+"name": "aim",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ) ],
+"loop": false,
+"name": "move",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=63]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 51, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=64]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 51, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=65]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 51, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=66]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 68, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=67]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 68, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=68]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 68, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=69]
+animations = [ {
+"frames": [ SubResource( 63 ), SubResource( 64 ), SubResource( 65 ) ],
+"loop": false,
+"name": "aim",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 66 ), SubResource( 67 ), SubResource( 68 ) ],
+"loop": false,
+"name": "move",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=70]
+atlas = ExtResource( 24 )
+region = Rect2( 0, 54, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=71]
+atlas = ExtResource( 24 )
+region = Rect2( 17, 54, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=72]
+atlas = ExtResource( 24 )
+region = Rect2( 34, 54, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=73]
+atlas = ExtResource( 24 )
+region = Rect2( 0, 18, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=74]
+atlas = ExtResource( 24 )
+region = Rect2( 17, 18, 17, 18 )
+
+[sub_resource type="AtlasTexture" id=75]
+atlas = ExtResource( 24 )
+region = Rect2( 34, 18, 17, 18 )
+
+[sub_resource type="SpriteFrames" id=76]
+animations = [ {
+"frames": [ SubResource( 70 ), SubResource( 71 ), SubResource( 72 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 73 ), SubResource( 74 ), SubResource( 75 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=112]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 102, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=113]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 102, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=114]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 102, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=77]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 17, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=78]
+atlas = ExtResource( 4 )
+region = Rect2( 100, 17, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=79]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 17, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=80]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 17, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=81]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 17, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=82]
+animations = [ {
+"frames": [ SubResource( 112 ), SubResource( 113 ), SubResource( 114 ) ],
+"loop": false,
+"name": "drop",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 77 ), SubResource( 77 ), SubResource( 78 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 79 ), SubResource( 80 ), SubResource( 81 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=115]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 85, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=116]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 85, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=117]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 85, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=83]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 0, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=84]
+atlas = ExtResource( 4 )
+region = Rect2( 100, 0, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=85]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=86]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 0, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=87]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 0, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=88]
+animations = [ {
+"frames": [ SubResource( 115 ), SubResource( 116 ), SubResource( 117 ) ],
+"loop": false,
+"name": "drop",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 83 ), SubResource( 83 ), SubResource( 84 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 85 ), SubResource( 86 ), SubResource( 87 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=118]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 136, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=119]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 136, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=120]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 136, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=89]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 51, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=90]
+atlas = ExtResource( 4 )
+region = Rect2( 100, 51, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=91]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 68, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=92]
+atlas = ExtResource( 4 )
+region = Rect2( 100, 68, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=93]
+atlas = ExtResource( 4 )
+region = Rect2( 125, 68, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=94]
+animations = [ {
+"frames": [ SubResource( 118 ), SubResource( 119 ), SubResource( 120 ) ],
+"loop": false,
+"name": "drop",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 89 ), SubResource( 89 ), SubResource( 90 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 91 ), SubResource( 92 ), SubResource( 93 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=124]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=125]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=126]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=103]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=104]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=105]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=106]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=107]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 153, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=108]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 153, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=97]
+animations = [ {
+"frames": [ SubResource( 124 ), SubResource( 125 ), SubResource( 126 ) ],
+"loop": false,
+"name": "drop",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 103 ), SubResource( 104 ), SubResource( 105 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 106 ), SubResource( 107 ), SubResource( 108 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=121]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 119, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=122]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 119, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=123]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 119, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=98]
+atlas = ExtResource( 4 )
+region = Rect2( 75, 34, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=99]
+atlas = ExtResource( 4 )
+region = Rect2( 100, 34, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=109]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 34, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=110]
+atlas = ExtResource( 4 )
+region = Rect2( 25, 34, 25, 17 )
+
+[sub_resource type="AtlasTexture" id=111]
+atlas = ExtResource( 4 )
+region = Rect2( 50, 34, 25, 17 )
+
+[sub_resource type="SpriteFrames" id=102]
+animations = [ {
+"frames": [ SubResource( 121 ), SubResource( 122 ), SubResource( 123 ) ],
+"loop": false,
+"name": "drop",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 98 ), SubResource( 98 ), SubResource( 99 ) ],
+"loop": false,
+"name": "pick",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 109 ), SubResource( 110 ), SubResource( 111 ) ],
+"loop": false,
+"name": "build",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 32, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 64, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 80, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"loop": true,
+"name": "ressources",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=3]
+size = 6
+outline_size = 1
+outline_color = Color( 0.0509804, 0.00392157, 0.00392157, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="AtlasTexture" id=134]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 0, 15, 7 )
+
+[sub_resource type="AtlasTexture" id=135]
+atlas = ExtResource( 25 )
+region = Rect2( 15, 0, 15, 7 )
+
+[sub_resource type="AtlasTexture" id=136]
+atlas = ExtResource( 25 )
+region = Rect2( 30, 0, 15, 7 )
+
+[sub_resource type="AtlasTexture" id=137]
+atlas = ExtResource( 25 )
+region = Rect2( 0, 7, 15, 7 )
+
+[sub_resource type="AtlasTexture" id=138]
+atlas = ExtResource( 25 )
+region = Rect2( 15, 7, 15, 7 )
+
+[sub_resource type="SpriteFrames" id=139]
+animations = [ {
+"frames": [ SubResource( 134 ), SubResource( 135 ), SubResource( 136 ), SubResource( 137 ), SubResource( 138 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 275, 10 )
+frames = SubResource( 33 )
+
+[node name="fuel_fire" type="AnimatedSprite" parent="."]
+position = Vector2( 275, 10 )
+frames = SubResource( 55 )
+animation = "down"
+frame = 6
+playing = true
+
+[node name="fuel" type="Label" parent="."]
+margin_left = 244.0
+margin_top = 7.0
+margin_right = 271.0
+margin_bottom = 21.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 21 )
+text = "FUEL"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Full" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Full"]
+margin_right = 296.0
+margin_bottom = 180.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="control" type="VBoxContainer" parent="Full/HBoxContainer2"]
+margin_right = 296.0
+margin_bottom = 180.0
+size_flags_horizontal = 3
+alignment = 2
+
+[node name="fuel" type="HBoxContainer" parent="Full/HBoxContainer2/control"]
+margin_right = 296.0
+margin_bottom = 140.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="bar" type="TextureProgress" parent="Full/HBoxContainer2/control/fuel"]
+margin_right = 240.0
+margin_bottom = 140.0
+step = 0.01
+value = 100.0
+texture_under = ExtResource( 9 )
+texture_over = ExtResource( 10 )
+texture_progress = ExtResource( 11 )
+
+[node name="VBoxContainer" type="HBoxContainer" parent="Full/HBoxContainer2/control"]
+margin_top = 144.0
+margin_right = 296.0
+margin_bottom = 180.0
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer"]
+margin_right = 215.0
+margin_bottom = 36.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3"]
+margin_right = 77.0
+margin_bottom = 30.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+alignment = 2
+
+[node name="but_LT" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2"]
+margin_top = 12.0
+margin_right = 17.0
+margin_bottom = 30.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 28 )
+
+[node name="anim_LT" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2/but_LT"]
+frames = SubResource( 62 )
+animation = "move"
+centered = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2"]
+margin_left = 21.0
+margin_right = 48.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 27, 30 )
+
+[node name="joystick" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2/HBoxContainer"]
+position = Vector2( 13, 15 )
+frames = SubResource( 20 )
+animation = "move"
+
+[node name="Fire" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2"]
+margin_left = 52.0
+margin_top = 13.0
+margin_right = 77.0
+margin_bottom = 30.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 8 )
+texture_disabled = ExtResource( 12 )
+
+[node name="anim_LB" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3/HBoxContainer2/Fire"]
+frames = SubResource( 69 )
+animation = "move"
+centered = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/HBoxContainer3"]
+margin_left = 81.0
+margin_right = 86.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 5, 5 )
+
+[node name="VBoxContainer" type="HBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer"]
+margin_left = 219.0
+margin_right = 296.0
+margin_bottom = 36.0
+custom_constants/separation = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer"]
+margin_right = 25.0
+margin_bottom = 36.0
+size_flags_horizontal = 15
+size_flags_vertical = 15
+custom_constants/separation = 1
+alignment = 1
+
+[node name="but_RB" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer"]
+margin_right = 17.0
+margin_bottom = 18.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 21 )
+texture_pressed = ExtResource( 17 )
+texture_disabled = ExtResource( 20 )
+
+[node name="anim_RB" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer/but_RB"]
+frames = SubResource( 76 )
+animation = "pick"
+frame = 1
+centered = false
+
+[node name="but_X" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer"]
+margin_top = 19.0
+margin_right = 25.0
+margin_bottom = 36.0
+toggle_mode = true
+pressed = true
+action_mode = 0
+texture_normal = ExtResource( 19 )
+texture_pressed = ExtResource( 18 )
+
+[node name="anim_X" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer/but_X"]
+frames = SubResource( 82 )
+animation = "pick"
+centered = false
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer"]
+margin_left = 26.0
+margin_right = 51.0
+margin_bottom = 36.0
+custom_constants/separation = 1
+
+[node name="but_Y" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer2"]
+margin_right = 25.0
+margin_bottom = 17.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 15 )
+
+[node name="anim_Y" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer2/but_Y"]
+frames = SubResource( 88 )
+animation = "pick"
+centered = false
+
+[node name="but_A" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer2"]
+margin_top = 18.0
+margin_right = 25.0
+margin_bottom = 35.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 23 )
+
+[node name="anim_A" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer2/but_A"]
+frames = SubResource( 94 )
+animation = "pick"
+centered = false
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer"]
+margin_left = 52.0
+margin_right = 77.0
+margin_bottom = 36.0
+custom_constants/separation = 1
+
+[node name="but_RT" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer3"]
+margin_right = 25.0
+margin_bottom = 17.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 26 )
+texture_pressed = ExtResource( 27 )
+texture_disabled = ExtResource( 16 )
+
+[node name="anim_RT" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer3/but_RT"]
+frames = SubResource( 97 )
+animation = "drop"
+centered = false
+
+[node name="but_B" type="TextureButton" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer3"]
+margin_top = 18.0
+margin_right = 25.0
+margin_bottom = 35.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 14 )
+texture_pressed = ExtResource( 5 )
+
+[node name="anim_B" type="AnimatedSprite" parent="Full/HBoxContainer2/control/VBoxContainer/VBoxContainer/VBoxContainer3/but_B"]
+frames = SubResource( 102 )
+animation = "pick"
+centered = false
+
+[node name="HBoxContainer" type="VBoxContainer" parent="Full"]
+margin_left = 300.0
+margin_right = 320.0
+margin_bottom = 116.0
+rect_min_size = Vector2( 20, 0 )
+size_flags_vertical = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Full/HBoxContainer"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Full/HBoxContainer/VBoxContainer"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+
+[node name="label_wood" type="Label" parent="Full/HBoxContainer/VBoxContainer"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "0"
+valign = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Full/HBoxContainer"]
+margin_top = 24.0
+margin_right = 20.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Full/HBoxContainer/VBoxContainer2"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+frame = 1
+
+[node name="Label_coal" type="Label" parent="Full/HBoxContainer/VBoxContainer2"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "0"
+valign = 2
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="Full/HBoxContainer"]
+margin_top = 48.0
+margin_right = 20.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Full/HBoxContainer/VBoxContainer3"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+frame = 3
+
+[node name="Label_iron" type="Label" parent="Full/HBoxContainer/VBoxContainer3"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "0"
+valign = 2
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="Full/HBoxContainer"]
+margin_top = 72.0
+margin_right = 20.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+alignment = 2
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Full/HBoxContainer/VBoxContainer4"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+frame = 2
+
+[node name="Label_gold" type="Label" parent="Full/HBoxContainer/VBoxContainer4"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "0"
+valign = 2
+
+[node name="VBoxContainer5" type="VBoxContainer" parent="Full/HBoxContainer"]
+margin_top = 96.0
+margin_right = 20.0
+margin_bottom = 116.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Full/HBoxContainer/VBoxContainer5"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+frame = 5
+
+[node name="Label_stock" type="Label" parent="Full/HBoxContainer/VBoxContainer5"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "0/0"
+align = 1
+valign = 2
+
+[node name="Bonus" type="VBoxContainer" parent="Full/HBoxContainer"]
+visible = false
+margin_top = 120.0
+margin_right = 20.0
+margin_bottom = 140.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Full/HBoxContainer/Bonus"]
+position = Vector2( 8, 8 )
+frames = SubResource( 2 )
+animation = "ressources"
+frame = 4
+
+[node name="Label" type="Label" parent="Full/HBoxContainer/Bonus"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+custom_fonts/font = SubResource( 3 )
+text = "Bonus"
+valign = 2
+
+[node name="Prices" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 265, 142 )
+frames = SubResource( 139 )
+frame = 2
+
+[node name="Prices2" type="AnimatedSprite" parent="Prices"]
+position = Vector2( -2, 34 )
+frames = SubResource( 139 )
+frame = 1
+
+[node name="Prices5" type="AnimatedSprite" parent="Prices"]
+position = Vector2( -2, 20 )
+frames = SubResource( 139 )
+frame = 4
+
+[node name="Prices3" type="AnimatedSprite" parent="Prices"]
+position = Vector2( -28, 20 )
+frames = SubResource( 139 )
+frame = 3
+
+[node name="Prices4" type="AnimatedSprite" parent="Prices"]
+position = Vector2( 25, 20 )
+frames = SubResource( 139 )
